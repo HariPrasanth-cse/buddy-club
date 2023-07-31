@@ -1,16 +1,4 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-class Demo{
-methodone()
-{
-    var a=5;
-    var b=10;
-    var c=a+b;
-    document.getElementById('root').innerHTML=c;
-}
-}
-var mydemo = new Demo();
-mydemo.methodone();
+
 
 import React, {Component} from "react";
 class App extends React.Component{
